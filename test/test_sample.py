@@ -1,11 +1,6 @@
 import pytest
 from queue import q
 
-# content of test_sample.py
-def func(x):
-    return x + 1
-
-
 def test_init():
     x = q.Queue([1, 2])
     print(x.items)
